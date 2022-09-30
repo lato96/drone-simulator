@@ -27,14 +27,14 @@ class Controller:
 
     def get_left_stick(self):
         self.pump_event()
-        horizontal = self.filter_deadzone(self.xbox_controller.get_axis(0))
-        vertical = self.filter_deadzone(self.xbox_controller.get_axis(1))
+        horizontal = self.xbox_controller.get_axis(0)
+        vertical = self.xbox_controller.get_axis(1)
         return (-vertical, horizontal)
 
     def get_right_stick(self):
         self.pump_event()
-        horizontal = self.filter_deadzone(self.xbox_controller.get_axis(2))
-        vertical = self.filter_deadzone(self.xbox_controller.get_axis(3))
+        horizontal = self.xbox_controller.get_axis(2)
+        vertical = self.xbox_controller.get_axis(3)
         return (vertical, -horizontal)
 
     def get_left_bumper(self):
