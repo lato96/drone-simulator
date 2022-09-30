@@ -13,3 +13,8 @@ Simulator is implemented to be controlled with Xbox 360 controller, but with lit
 usable. 
 
 Controls can be found on gamepad_legend
+
+##credits
+- model of Burj Kalifa: https://grabcad.com/jaroslav.cerki
+- model of quad-rotor drone: https://grabcad.com/jahiduzzaman.tanvin-1
+
